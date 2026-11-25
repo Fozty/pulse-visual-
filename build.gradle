@@ -87,3 +87,10 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
