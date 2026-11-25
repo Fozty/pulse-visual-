@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse-mod",
+  "version": "1.0.0",
+  "name": "Pulse Visual",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.PulseMode"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
